@@ -89,12 +89,7 @@ export const EditAssetModal: FC<EditAssetModalProps> = ({
       </DialogContent>
       <DialogActions>
         <Button onClick={cancelHandler}>Cancel</Button>
-        <Button
-          onClick={saveHandler}
-          autoFocus
-          variant="contained"
-          disabled={true}
-        >
+        <Button onClick={saveHandler} autoFocus variant="contained">
           Save
         </Button>
       </DialogActions>

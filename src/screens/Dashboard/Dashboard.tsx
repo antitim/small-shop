@@ -104,10 +104,10 @@ export const Dashboard: FC = () => {
         </Button>
       </Box>
       <TableContainer component={Paper}>
-        <Table sx={{ minWidth: 650 }}>
+        <Table>
           <TableHead>
             <TableRow>
-              <TableCell sx={{ width: "50px" }}>Preview</TableCell>
+              <TableCell sx={{ width: "50px" }}></TableCell>
               <TableCell sx={{ width: "50px" }}>ID</TableCell>
               <TableCell sx={{ width: "80px" }}>Preview</TableCell>
               <TableCell>Title</TableCell>
